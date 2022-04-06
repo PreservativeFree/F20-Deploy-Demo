@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const app = express()
 
-app.use(express.static('public'))
+app.use(express.static('public')) //summons main and styles.css in public
 
 
 app.get('/', (req, res) => {
